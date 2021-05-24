@@ -8,7 +8,7 @@ Dependencies:
   - testcafe
   - testcafe-reporter-html
 
-To install all the dependencies open a terminal on the project folder and run:
+To install all the dependencies open a terminal in the project folder and run:
   
     npm install
  
@@ -32,4 +32,23 @@ Four npm scripts are defined to run the set of test cases:
   - To run the complete set: 
         
         npm run test-all-multi-browser
+
+**Test Execution Reports**
+
+The execution will create an html report in folder ./reports
+  - Login scenarios will generate:
+  
+        report_login_{timestamp}.html
+        
+  - Shopping cart scenarios will generate:
+ 
+        report_shoppingCart_{timestamp}.html
+        
+  - Checkout scenarios will generate:
+  
+        report_checkout_{timestamp}.html
+        
+  - All scenarios will generate: 
+  
+        report_all_{timestamp}.html
 
