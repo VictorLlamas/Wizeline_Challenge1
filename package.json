@@ -1,0 +1,19 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "description": "Wizeline Academy - Challenge 1: Front End Test automation  using TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe all ./pom/tests --reporter html:./reports/report_all.html",
+    "test-login-chrome": "testcafe all ./pom/tests/Login.test.js --reporter html:./reports/report_login.html",
+    "test-shoppingCart-chrome": "testcafe all ./pom/tests/ShoppingCart.test.js --reporter html:./reports/report_shoppingCart.html",
+    "test-checkout-chrome": "testcafe all ./pom/tests/Checkout.test.js --reporter html:./reports/report_all.html"
+  },
+  "author": "Victor Llamas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.14.2",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
