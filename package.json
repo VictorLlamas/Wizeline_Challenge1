@@ -1,7 +1,7 @@
 {
   "name": "challenge1",
   "version": "1.0.0",
-  "description": "Wizeline Academy - Challenge 1: Front End Test automation  using TestCafe",
+  "description": "Wizeline Academy - Challenge 1: Front End Test automation using TestCafe",
   "main": "index.js",
   "scripts": {
     "test-all-multi-browser": "TS=$(date '+%Y-%m-%d_%H-%M-%S');testcafe all ./pom/tests --reporter html:./reports/report_all_$TS.html",
